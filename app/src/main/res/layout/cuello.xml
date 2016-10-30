@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:weightSum="1">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spanish to English"
+        android:id="@+id/BodyPartProfile"
+        />
+
+    <TextView
+        android:id="@+id/BodyPartNameFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CUELLO"
+        android:layout_below="@+id/BodyPartProfile"
+        android:layout_alignParentLeft="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="neck"
+        android:id="@+id/back"
+        android:layout_alignParentLeft="true"
+        />
+
+
+
+    <ImageView
+        android:layout_width="373dp"
+        android:layout_height="90dp"
+        android:src = "@drawable/cuello"
+        android:id="@+id/image_cuello"
+        android:layout_alignRight="@+id/BodyPartNameFace"
+        android:textColor="#FFFF00FF"
+        android:layout_weight="0.53" />
+
+</LinearLayout>
